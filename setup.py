@@ -11,23 +11,26 @@ classifiers = [
     'Programming Language :: Python :: 3.3',
     'Programming Language :: Python :: 3.4',
     'Programming Language :: Python :: 3.5',
-    'Operating System :: POSIX :: Linux',
     'Intended Audience :: Developers',
+    'License :: OSI Approved',
+    'License :: OSI Approved :: MIT License',
     'Topic :: Software Development :: Libraries',
-    'License :: OSI Approved :: BSD License',
+    'Topic :: System :: Networking',
+    'Topic :: System :: Monitoring',
+    'Topic :: System :: Systems Administration'
 ]
 
 kw = {
     'name':                 'riemann-api',
     'version':              '1.0.0',
 
-    'description':          'TBD',
+    'description':          'Client for the Riemann event stream processor',
     'long_description':     open('README.rst').read(),
 
     'author':               'Georgi Valkov',
     'author_email':         'georgi.t.valkov@gmail.com',
-    'license':              'Revised BSD License',
-    'keywords':             'evdev input uinput',
+    'license':              'MIT',
+    'keywords':             'riemann',
     'url':                  'https://github.com/gvalkov/riemann-api',
     'classifiers':          classifiers,
 
